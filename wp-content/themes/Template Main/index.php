@@ -74,8 +74,8 @@ Template Name: /
                     <!-- Top Left -->
                     <div class="top-left">
                         <ul class="list-main">
-                            <li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
-                            <li><i class="ti-email"></i> support@shophub.com</li>
+                            <li><i class="ti-headphone-alt"></i> 8 (812) 543-21-32</li>
+                            <li><i class="ti-email"></i> info@artplanshet.ru</li>
                         </ul>
                     </div>
                     <!--/ End Top Left -->
@@ -84,10 +84,9 @@ Template Name: /
                     <!-- Top Right -->
                     <div class="right-content">
                         <ul class="list-main">
-                            <li><i class="ti-location-pin"></i> Store location</li>
-                            <li><i class="ti-alarm-clock"></i> <a href="#">Daily deal</a></li>
-                            <li><i class="ti-user"></i> <a href="#">My account</a></li>
-                            <li><i class="ti-power-off"></i><a href="login.html#">Login</a></li>
+                            <li><i class="ti-location-pin"></i> Адреса магазинов</li>
+                            <li><i class="ti-user"></i> <a href="#">Личный кабинет</a></li>
+                            <li><i class="ti-power-off"></i><a href="login.html#">Войти</a></li>
                         </ul>
                     </div>
                     <!-- End Top Right -->
@@ -102,7 +101,7 @@ Template Name: /
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.php"><img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="logo"></a>
+                        <a href="/"><img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="logo"></a>
                     </div>
                     <!--/ End Logo -->
                     <!-- Search Form -->
@@ -124,13 +123,20 @@ Template Name: /
                     <div class="search-bar-top">
                         <div class="search-bar">
                             <select>
-                                <option selected="selected">All Category</option>
-                                <option>watch</option>
-                                <option>mobile</option>
-                                <option>kid’s item</option>
+                                <option selected="selected">Все категории</option>
+                                <option>Акварель</option>
+                                <option>Акрил художественный</option>
+                                <option>Акрил декоративный</option>
+                                <option>Контуры</option>
+                                <option>Гуашь</option>
+                                <option>Масло</option>
+                                <option>Краски аэрозольные</option>
+                                <option>Темпера</option>
+                                <option>Краски пальчиковые</option>
+                                <option>Эбру</option>
                             </select>
                             <form>
-                                <input name="search" placeholder="Search Products Here....." type="search">
+                                <input name="search" placeholder="Поиск товаров здесь...." type="search">
                                 <button class="btnn"><i class="ti-search"></i></button>
                             </form>
                         </div>
@@ -140,9 +146,6 @@ Template Name: /
                     <div class="right-bar">
                         <!-- Search Form -->
                         <div class="sinlge-bar">
-                            <a href="#" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="sinlge-bar">
                             <a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
                         </div>
                         <div class="sinlge-bar shopping">
@@ -150,8 +153,8 @@ Template Name: /
                             <!-- Shopping Item -->
                             <div class="shopping-item">
                                 <div class="dropdown-cart-header">
-                                    <span>2 Items</span>
-                                    <a href="#">View Cart</a>
+                                    <span>2 товара</span>
+                                    <a href="корзина">Перейти в корзину</a>
                                 </div>
                                 <ul class="shopping-list">
                                     <li>
@@ -169,10 +172,10 @@ Template Name: /
                                 </ul>
                                 <div class="bottom">
                                     <div class="total">
-                                        <span>Total</span>
+                                        <span>Итого</span>
                                         <span class="total-amount">$134.00</span>
                                     </div>
-                                    <a href="checkout.php" class="btn animate">Checkout</a>
+                                    <a href="checkout.php" class="btn animate">КУПИТЬ В 1 КЛИК</a>
                                 </div>
                             </div>
                             <!--/ End Shopping Item -->
@@ -189,69 +192,69 @@ Template Name: /
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="all-category">
-                            <h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
+                            <h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>КАТЕГОРИИ</h3>
                             <ul class="main-category">
-                                <li><a href="#">New Arrivals <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                    <ul class="sub-category">
-                                        <li><a href="#">accessories</a></li>
-                                        <li><a href="#">best selling</a></li>
-                                        <li><a href="#">top 100 offer</a></li>
-                                        <li><a href="#">sunglass</a></li>
-                                        <li><a href="#">watch</a></li>
-                                        <li><a href="#">man’s product</a></li>
-                                        <li><a href="#">ladies</a></li>
-                                        <li><a href="#">westrn dress</a></li>
-                                        <li><a href="#">denim </a></li>
-                                    </ul>
+                                <ul class="sub-category">
+                                    <li><a href="#">Топ Продаж</a></li>
+                                    <li><a href="#">Акварель</a></li>
+                                    <li><a href="#">Акрил художественный</a></li>
+                                    <li><a href="#">Акрил декоративный</a></li>
+                                    <li><a href="#">Контуры</a></li>
+                                    <li><a href="#">Гуашь</a></li>
+                                    <li><a href="#">Масло</a></li>
+                                    <li><a href="#">Краски аэрозольные </a></li>
+                                    <li><a href="#">Темпера</a></li>
+                                    <li><a href="#">Краски пальчиковые</a></li>
+                                    <li><a href="#">Эбру</a></li>
+                                </ul>
                                 </li>
-                                <li class="main-mega"><a href="#">best selling <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                <li class="main-mega"><a href="#">Топ Продаж <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                     <ul class="mega-menu">
                                         <li class="single-menu">
-                                            <a href="#" class="title-link">Shop Kid's</a>
+                                            <a href="#" class="title-link">Акварель</a>
                                             <div class="image">
                                                 <img src="https://via.placeholder.com/225x155" alt="#">
                                             </div>
                                             <div class="inner-link">
-                                                <a href="#">Kids Toys</a>
-                                                <a href="#">Kids Travel Car</a>
-                                                <a href="#">Kids Color Shape</a>
-                                                <a href="#">Kids Tent</a>
+                                                <a href="#">Товар1</a>
+                                                <a href="#">Товар2</a>
+                                                <a href="#">Товар3</a>
+                                                <a href="#">Товар4</a>
                                             </div>
                                         </li>
                                         <li class="single-menu">
-                                            <a href="#" class="title-link">Shop Men's</a>
+                                            <a href="#" class="title-link">Гуашь</a>
                                             <div class="image">
                                                 <img src="https://via.placeholder.com/225x155" alt="#">
                                             </div>
                                             <div class="inner-link">
-                                                <a href="#">Watch</a>
-                                                <a href="#">T-shirt</a>
-                                                <a href="#">Hoodies</a>
-                                                <a href="#">Formal Pant</a>
+                                                <a href="#">Товар1</a>
+                                                <a href="#">Товар2</a>
+                                                <a href="#">Товар3</a>
+                                                <a href="#">Товар4</a>
                                             </div>
                                         </li>
                                         <li class="single-menu">
-                                            <a href="#" class="title-link">Shop Women's</a>
+                                            <a href="#" class="title-link">Масло</a>
                                             <div class="image">
                                                 <img src="https://via.placeholder.com/225x155" alt="#">
                                             </div>
                                             <div class="inner-link">
-                                                <a href="#">Ladies Shirt</a>
-                                                <a href="#">Ladies Frog</a>
-                                                <a href="#">Ladies Sun Glass</a>
-                                                <a href="#">Ladies Watch</a>
+                                                <a href="#">Товар1</a>
+                                                <a href="#">Товар2</a>
+                                                <a href="#">Товар3</a>
+                                                <a href="#">Товар4</a>
                                             </div>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="#">accessories</a></li>
-                                <li><a href="#">top 100 offer</a></li>
-                                <li><a href="#">sunglass</a></li>
-                                <li><a href="#">watch</a></li>
-                                <li><a href="#">man’s product</a></li>
-                                <li><a href="#">ladies</a></li>
-                                <li><a href="#">westrn dress</a></li>
-                                <li><a href="#">denim </a></li>
+                                <li><a href="#">Акрил художественный</a></li>
+                                <li><a href="#">Акрил декоративный</a></li>
+                                <li><a href="#">Контуры</a></li>
+                                <li><a href="#">Краски аэрозольные </a></li>
+                                <li><a href="#">Темпера</a></li>
+                                <li><a href="#">Краски пальчиковые</a></li>
+                                <li><a href="#">Эбру</a></li>
                             </ul>
                         </div>
                     </div>
@@ -262,22 +265,10 @@ Template Name: /
                                 <div class="navbar-collapse">
                                     <div class="nav-inner">
                                         <ul class="nav main-menu menu navbar-nav">
-                                            <li class="active"><a href="#">Home</a></li>
-                                            <li><a href="#">Product</a></li>
-                                            <li><a href="#">Service</a></li>
-                                            <li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
-                                                <ul class="dropdown">
-                                                    <li><a href="cart.php">Cart</a></li>
-                                                    <li><a href="checkout.php">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pages</a></li>
-                                            <li><a href="#">Blog<i class="ti-angle-down"></i></a>
-                                                <ul class="dropdown">
-                                                    <li><a href="blog-single-sidebar.php">Blog Single Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.php">Contact Us</a></li>
+                                            <li class="active"><a href="/">Главная</a></li>
+                                            <li><a href="#">Товары</a></li>
+                                            <li><a href="корзина">Оплата и доставка</a></li>
+                                            <li><a href="контакты">Контакты</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -304,10 +295,9 @@ Template Name: /
                         <div class="row">
                             <div class="col-lg-7 col-12">
                                 <div class="hero-text">
-                                    <h1><span>UP TO 50% OFF </span>Shirt For Man</h1>
-                                    <p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
+                                    <h1><span>СКИДКИ НА ДОСТАВКУ 50% </span>АртПланшет</h1>
                                     <div class="button">
-                                        <a href="#" class="btn">Shop Now!</a>
+                                        <a href="контакты" class="btn">Связаться с нами</a>
                                     </div>
                                 </div>
                             </div>
@@ -372,7 +362,7 @@ Template Name: /
         <div class="row">
             <div class="col-12">
                 <div class="section-title">
-                    <h2>Trending Item</h2>
+                    <h2>Популярные товары</h2>
                 </div>
             </div>
         </div>
@@ -382,18 +372,18 @@ Template Name: /
                     <div class="nav-main">
                         <!-- Tab Nav -->
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">Man</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#women" role="tab">Woman</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Kids</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Accessories</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#essential" role="tab">Essential</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#prices" role="tab">Prices</a></li>
+                            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#aquarel" role="tab">Акварель</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#aqrilhud" role="tab">Акрил художественный</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#aqrildek" role="tab">Акрил декоративный</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#konturi" role="tab">Контуры</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#guash" role="tab">Гуашь</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#maslo" role="tab">Масло</a></li>
                         </ul>
                         <!--/ End Tab Nav -->
                     </div>
                     <div class="tab-content" id="myTabContent">
                         <!-- Start Single Tab -->
-                        <div class="tab-pane fade show active" id="man" role="tabpanel">
+                        <div class="tab-pane fade show active" id="aquarel" role="tabpanel">
                             <div class="tab-single">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-4 col-12">
@@ -405,17 +395,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                                <h3><a href="product-details.html">aquarel1</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -431,17 +419,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                <h3><a href="product-details.html">aquarel2</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -457,17 +443,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">aquarel3</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -484,17 +468,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                <h3><a href="product-details.html">aquarel4</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -510,17 +492,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">aquarel5</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -537,17 +517,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                <h3><a href="product-details.html">aquarel6</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -563,17 +541,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                <h3><a href="product-details.html">aquarel7</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -590,17 +566,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                <h3><a href="product-details.html">aquarel8</a></h3>
                                                 <div class="product-price">
                                                     <span class="old">$60.00</span>
                                                     <span>$50.00</span>
@@ -613,7 +587,7 @@ Template Name: /
                         </div>
                         <!--/ End Single Tab -->
                         <!-- Start Single Tab -->
-                        <div class="tab-pane fade" id="women" role="tabpanel">
+                        <div class="tab-pane fade" id="aqrilhud" role="tabpanel">
                             <div class="tab-single">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-4 col-12">
@@ -625,17 +599,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud1</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -651,17 +623,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud2</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -677,17 +647,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud3</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -704,17 +672,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud4</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -730,17 +696,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud5</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -757,17 +721,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud6</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -783,17 +745,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud7</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -810,17 +770,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                <h3><a href="product-details.html">aqrilhud8</a></h3>
                                                 <div class="product-price">
                                                     <span class="old">$60.00</span>
                                                     <span>$50.00</span>
@@ -833,7 +791,7 @@ Template Name: /
                         </div>
                         <!--/ End Single Tab -->
                         <!-- Start Single Tab -->
-                        <div class="tab-pane fade" id="kids" role="tabpanel">
+                        <div class="tab-pane fade" id="aqrildek" role="tabpanel">
                             <div class="tab-single">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-4 col-12">
@@ -845,17 +803,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                                <h3><a href="product-details.html">aqrildek1</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -871,17 +827,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                <h3><a href="product-details.html">aqrildek2</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -897,17 +851,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">aqrildek3</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -924,17 +876,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                <h3><a href="product-details.html">aqrildek4</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -950,17 +900,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">aqrildek5</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -977,17 +925,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                <h3><a href="product-details.html">aqrildek6</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1003,17 +949,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                <h3><a href="product-details.html">aqrildek7</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1030,17 +974,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                <h3><a href="product-details.html">aqrildek8</a></h3>
                                                 <div class="product-price">
                                                     <span class="old">$60.00</span>
                                                     <span>$50.00</span>
@@ -1053,7 +995,7 @@ Template Name: /
                         </div>
                         <!--/ End Single Tab -->
                         <!-- Start Single Tab -->
-                        <div class="tab-pane fade" id="accessories" role="tabpanel">
+                        <div class="tab-pane fade" id="konturi" role="tabpanel">
                             <div class="tab-single">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-4 col-12">
@@ -1065,17 +1007,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                                <h3><a href="product-details.html">konturi1</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1091,17 +1031,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                <h3><a href="product-details.html">konturi2</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1117,17 +1055,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">konturi3</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1144,17 +1080,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                <h3><a href="product-details.html">konturi4</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1170,17 +1104,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">konturi5</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1197,17 +1129,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                <h3><a href="product-details.html">konturi6</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1223,17 +1153,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                <h3><a href="product-details.html">konturi7</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1250,17 +1178,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                <h3><a href="product-details.html">konturi8</a></h3>
                                                 <div class="product-price">
                                                     <span class="old">$60.00</span>
                                                     <span>$50.00</span>
@@ -1273,7 +1199,7 @@ Template Name: /
                         </div>
                         <!--/ End Single Tab -->
                         <!-- Start Single Tab -->
-                        <div class="tab-pane fade" id="essential" role="tabpanel">
+                        <div class="tab-pane fade" id="guash" role="tabpanel">
                             <div class="tab-single">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-4 col-12">
@@ -1285,17 +1211,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                                <h3><a href="product-details.html">guash1</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1311,17 +1235,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                <h3><a href="product-details.html">guash2</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1337,17 +1259,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">guash3</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1364,17 +1284,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                <h3><a href="product-details.html">guash4</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1390,17 +1308,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">guash5</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1417,17 +1333,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                <h3><a href="product-details.html">guash6</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1443,17 +1357,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                <h3><a href="product-details.html">guash7</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1470,17 +1382,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                <h3><a href="product-details.html">guash8</a></h3>
                                                 <div class="product-price">
                                                     <span class="old">$60.00</span>
                                                     <span>$50.00</span>
@@ -1493,7 +1403,7 @@ Template Name: /
                         </div>
                         <!--/ End Single Tab -->
                         <!-- Start Single Tab -->
-                        <div class="tab-pane fade" id="prices" role="tabpanel">
+                        <div class="tab-pane fade" id="maslo" role="tabpanel">
                             <div class="tab-single">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-4 col-12">
@@ -1505,17 +1415,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                                <h3><a href="product-details.html">maslo1</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1531,17 +1439,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                <h3><a href="product-details.html">maslo2</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1557,17 +1463,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">maslo3</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1584,17 +1488,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                                                <h3><a href="product-details.html">maslo4</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1610,17 +1512,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                                                <h3><a href="product-details.html">maslo5</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1637,17 +1537,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                                                <h3><a href="product-details.html">maslo6</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1663,17 +1561,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                                                <h3><a href="product-details.html">maslo7</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -1690,17 +1586,15 @@ Template Name: /
                                                 </a>
                                                 <div class="button-head">
                                                     <div class="product-action">
-                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                        <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                        <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                        <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                                     </div>
                                                     <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Add to cart</a>
+                                                        <a title="Add to cart" href="#">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                                                <h3><a href="product-details.html">maslo8</a></h3>
                                                 <div class="product-price">
                                                     <span class="old">$60.00</span>
                                                     <span>$50.00</span>
@@ -1712,6 +1606,7 @@ Template Name: /
                             </div>
                         </div>
                         <!--/ End Single Tab -->
+
                     </div>
                 </div>
             </div>
@@ -1723,15 +1618,18 @@ Template Name: /
 <!-- Start Midium Banner  -->
 <section class="midium-banner">
     <div class="container">
+        <div class="section-title">
+            <h2>Топ категорий товаров</h2>
+        </div>
         <div class="row">
             <!-- Single Banner  -->
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="single-banner">
                     <img src="https://via.placeholder.com/600x370" alt="#">
                     <div class="content">
-                        <p>Man's Collectons</p>
-                        <h3>Man's items <br>Up to<span> 50%</span></h3>
-                        <a href="#">Shop Now</a>
+                        <p>КРАСКИ ДЛЯ РИСОВАНИЯ</p>
+                        <h3>Акрил <br>скидки до <span>20%</span></h3>
+                        <a href="#" class="btn">Смотреть все</a>
                     </div>
                 </div>
             </div>
@@ -1741,9 +1639,9 @@ Template Name: /
                 <div class="single-banner">
                     <img src="https://via.placeholder.com/600x370" alt="#">
                     <div class="content">
-                        <p>shoes women</p>
-                        <h3>mid season <br> up to <span>70%</span></h3>
-                        <a href="#" class="btn">Shop Now</a>
+                        <p>КРАСКИ ДЛЯ РИСОВАНИЯ</p>
+                        <h3>Гуашь <br>скидки до <span>20%</span></h3>
+                        <a href="#" class="btn">Смотреть все</a>
                     </div>
                 </div>
             </div>
@@ -1759,7 +1657,7 @@ Template Name: /
         <div class="row">
             <div class="col-12">
                 <div class="section-title">
-                    <h2>Hot Item</h2>
+                    <h2>Топ товаров</h2>
                 </div>
             </div>
         </div>
@@ -1772,16 +1670,14 @@ Template Name: /
                             <a href="product-details.html">
                                 <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
                                 <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                <span class="out-of-stock">Hot</span>
+                                <span class="out-of-stock">ТОП</span>
                             </a>
                             <div class="button-head">
                                 <div class="product-action">
-                                    <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                    <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                    <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                    <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Купить в 1 клик</span></a>
                                 </div>
                                 <div class="product-action-2">
-                                    <a title="Add to cart" href="#">Add to cart</a>
+                                    <a title="Add to cart" href="#">Добавить в корзину</a>
                                 </div>
                             </div>
                         </div>
@@ -1880,274 +1776,6 @@ Template Name: /
 </div>
 <!-- End Most Popular Area -->
 
-<section class="section free-version-banner">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-8 offset-md-2 col-xs-12">
-                <div class="section-title mb-60">
-                    <span class="text-white wow fadeInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">Eshop Free Lite version</span>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Currently You are using free<br> lite Version of Eshop.</h2>
-                    <p class="text-white wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Please, purchase full version of the template to get all pages,<br> features and commercial license.</p>
-
-                    <div class="button">
-                        <a href="https://wpthemesgrid.com/downloads/eshop-ecommerce-html5-template/" target="_blank" rel="nofollow" class="btn wow fadeInUp" data-wow-delay=".8s">Purchase Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Start Shop Home List  -->
-<section class="shop-home-list section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="shop-section-title">
-                            <h1>On sale</h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h4 class="title"><a href="#">Licity jelly leg flat Sandals</a></h4>
-                                <p class="price with-discount">$59</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$44</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$89</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="shop-section-title">
-                            <h1>Best Seller</h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$65</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$33</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$77</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="shop-section-title">
-                            <h1>Top viewed</h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$22</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$35</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-                <!-- Start Single List  -->
-                <div class="single-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="list-image overlay">
-                                <img src="https://via.placeholder.com/115x140" alt="#">
-                                <a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 no-padding">
-                            <div class="content">
-                                <h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-                                <p class="price with-discount">$99</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single List  -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Shop Home List  -->
-
-<!-- Start Shop Blog  -->
-<section class="shop-blog section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h2>From Our Blog</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Blog  -->
-                <div class="shop-single-blog">
-                    <img src="https://via.placeholder.com/370x300" alt="#">
-                    <div class="content">
-                        <p class="date">22 July , 2020. Monday</p>
-                        <a href="#" class="title">Sed adipiscing ornare.</a>
-                        <a href="#" class="more-btn">Continue Reading</a>
-                    </div>
-                </div>
-                <!-- End Single Blog  -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Blog  -->
-                <div class="shop-single-blog">
-                    <img src="https://via.placeholder.com/370x300" alt="#">
-                    <div class="content">
-                        <p class="date">22 July, 2020. Monday</p>
-                        <a href="#" class="title">Man’s Fashion Winter Sale</a>
-                        <a href="#" class="more-btn">Continue Reading</a>
-                    </div>
-                </div>
-                <!-- End Single Blog  -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Blog  -->
-                <div class="shop-single-blog">
-                    <img src="https://via.placeholder.com/370x300" alt="#">
-                    <div class="content">
-                        <p class="date">22 July, 2020. Monday</p>
-                        <a href="#" class="title">Women Fashion Festive</a>
-                        <a href="#" class="more-btn">Continue Reading</a>
-                    </div>
-                </div>
-                <!-- End Single Blog  -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Shop Blog  -->
-
 <!-- Start Shop Services Area -->
 <section class="shop-services section home">
     <div class="container">
@@ -2155,18 +1783,9 @@ Template Name: /
             <div class="col-lg-3 col-md-6 col-12">
                 <!-- Start Single Service -->
                 <div class="single-service">
-                    <i class="ti-rocket"></i>
-                    <h4>Free shiping</h4>
-                    <p>Orders over $100</p>
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
                     <i class="ti-reload"></i>
-                    <h4>Free Return</h4>
-                    <p>Within 30 days returns</p>
+                    <h4>Бесплатный возврат</h4>
+                    <p>В течении 14 дней</p>
                 </div>
                 <!-- End Single Service -->
             </div>
@@ -2174,8 +1793,8 @@ Template Name: /
                 <!-- Start Single Service -->
                 <div class="single-service">
                     <i class="ti-lock"></i>
-                    <h4>Sucure Payment</h4>
-                    <p>100% secure payment</p>
+                    <h4>Качественный товар</h4>
+                    <p>Проверки товара при покупки</p>
                 </div>
                 <!-- End Single Service -->
             </div>
@@ -2183,8 +1802,8 @@ Template Name: /
                 <!-- Start Single Service -->
                 <div class="single-service">
                     <i class="ti-tag"></i>
-                    <h4>Best Peice</h4>
-                    <p>Guaranteed price</p>
+                    <h4>Лучшие цены</h4>
+                    <p>Цены по оптовому прайсу</p>
                 </div>
                 <!-- End Single Service -->
             </div>
@@ -2201,11 +1820,11 @@ Template Name: /
                 <div class="col-lg-8 offset-lg-2 col-12">
                     <!-- Start Newsletter Inner -->
                     <div class="inner">
-                        <h4>Newsletter</h4>
-                        <p> Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
+                        <h4>Подписка на новости</h4>
+                        <p> Подпишитесь на наши новости и получите <span>10%</span> скидку на первый заказ</p>
                         <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-                            <input name="EMAIL" placeholder="Your email address" required="" type="email">
-                            <button class="btn">Subscribe</button>
+                            <input name="EMAIL" placeholder="Ваш Email" required="" type="email">
+                            <button class="btn">Подписаться</button>
                         </form>
                     </div>
                     <!-- End Newsletter Inner -->

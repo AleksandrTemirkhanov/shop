@@ -76,8 +76,8 @@ Template Name: Контакты
                     <!-- Top Left -->
                     <div class="top-left">
                         <ul class="list-main">
-                            <li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
-                            <li><i class="ti-email"></i> support@shophub.com</li>
+                            <li><i class="ti-headphone-alt"></i> 8 (812) 543-21-32</li>
+                            <li><i class="ti-email"></i> info@artplanshet.ru</li>
                         </ul>
                     </div>
                     <!--/ End Top Left -->
@@ -86,10 +86,9 @@ Template Name: Контакты
                     <!-- Top Right -->
                     <div class="right-content">
                         <ul class="list-main">
-                            <li><i class="ti-location-pin"></i> Store location</li>
-                            <li><i class="ti-alarm-clock"></i> <a href="#">Daily deal</a></li>
-                            <li><i class="ti-user"></i> <a href="#">My account</a></li>
-                            <li><i class="ti-power-off"></i><a href="login.html#">Login</a></li>
+                            <li><i class="ti-location-pin"></i> Адреса магазинов</li>
+                            <li><i class="ti-user"></i> <a href="#">Личный кабинет</a></li>
+                            <li><i class="ti-power-off"></i><a href="login.html#">Войти</a></li>
                         </ul>
                     </div>
                     <!-- End Top Right -->
@@ -104,7 +103,7 @@ Template Name: Контакты
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.php"><img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="logo"></a>
+                        <a href="/"><img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="logo"></a>
                     </div>
                     <!--/ End Logo -->
                     <!-- Search Form -->
@@ -126,13 +125,20 @@ Template Name: Контакты
                     <div class="search-bar-top">
                         <div class="search-bar">
                             <select>
-                                <option selected="selected">All Category</option>
-                                <option>watch</option>
-                                <option>mobile</option>
-                                <option>kid’s item</option>
+                                <option selected="selected">Все категории</option>
+                                <option>Акварель</option>
+                                <option>Акрил художественный</option>
+                                <option>Акрил декоративный</option>
+                                <option>Контуры</option>
+                                <option>Гуашь</option>
+                                <option>Масло</option>
+                                <option>Краски аэрозольные</option>
+                                <option>Темпера</option>
+                                <option>Краски пальчиковые</option>
+                                <option>Эбру</option>
                             </select>
                             <form>
-                                <input name="search" placeholder="Search Products Here....." type="search">
+                                <input name="search" placeholder="Поиск товаров здесь...." type="search">
                                 <button class="btnn"><i class="ti-search"></i></button>
                             </form>
                         </div>
@@ -142,9 +148,6 @@ Template Name: Контакты
                     <div class="right-bar">
                         <!-- Search Form -->
                         <div class="sinlge-bar">
-                            <a href="#" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="sinlge-bar">
                             <a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
                         </div>
                         <div class="sinlge-bar shopping">
@@ -152,8 +155,8 @@ Template Name: Контакты
                             <!-- Shopping Item -->
                             <div class="shopping-item">
                                 <div class="dropdown-cart-header">
-                                    <span>2 Items</span>
-                                    <a href="#">View Cart</a>
+                                    <span>2 товара</span>
+                                    <a href="корзина">Перейти в корзину</a>
                                 </div>
                                 <ul class="shopping-list">
                                     <li>
@@ -171,10 +174,10 @@ Template Name: Контакты
                                 </ul>
                                 <div class="bottom">
                                     <div class="total">
-                                        <span>Total</span>
+                                        <span>Итого</span>
                                         <span class="total-amount">$134.00</span>
                                     </div>
-                                    <a href="checkout.php" class="btn animate">Checkout</a>
+                                    <a href="checkout.php" class="btn animate">КУПИТЬ В 1 КЛИК</a>
                                 </div>
                             </div>
                             <!--/ End Shopping Item -->
@@ -189,29 +192,17 @@ Template Name: Контакты
         <div class="container">
             <div class="cat-nav-head">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-lg-9 col-12">
                         <div class="menu-area">
                             <!-- Main Menu -->
                             <nav class="navbar navbar-expand-lg">
                                 <div class="navbar-collapse">
                                     <div class="nav-inner">
                                         <ul class="nav main-menu menu navbar-nav">
-                                            <li class="active"><a href="#">Home</a></li>
-                                            <li><a href="#">Product</a></li>
-                                            <li><a href="#">Service</a></li>
-                                            <li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
-                                                <ul class="dropdown">
-                                                    <li><a href="cart.php">Cart</a></li>
-                                                    <li><a href="checkout.php">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pages</a></li>
-                                            <li><a href="#">Blog<i class="ti-angle-down"></i></a>
-                                                <ul class="dropdown">
-                                                    <li><a href="blog-single-sidebar.php">Blog Single Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.php">Contact Us</a></li>
+                                            <li><a href="/">Главная</a></li>
+                                            <li><a href="#">Товары</a></li>
+                                            <li><a href="корзина">Оплата и доставка</a></li>
+                                            <li class="active"><a href="контакты">Контакты</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -234,8 +225,8 @@ Template Name: Контакты
             <div class="col-12">
                 <div class="bread-inner">
                     <ul class="bread-list">
-                        <li><a href="index1.html">Home<i class="ti-arrow-right"></i></a></li>
-                        <li class="active"><a href="blog-single.html">Contact</a></li>
+                        <li><a href="index1.html">Главная<i class="ti-arrow-right"></i></a></li>
+                        <li class="active"><a href="blog-single.html">Контакты</a></li>
                     </ul>
                 </div>
             </div>

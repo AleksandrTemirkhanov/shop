@@ -2,6 +2,7 @@
 Template Name: Diplom
 Author Name: Alexander Termichanov
 Author URI:
+Template: clean-commerce
 Description:
 Version:1.0
 ========================================*/
@@ -35,6 +36,7 @@ Version:1.0
 20. 404 Error CSS
 21. Footer CSS
 ========================================*/
+@import url("../clean-commerce/style.css");
 .color-plate {
 	position: fixed;
 	display: block;
@@ -777,15 +779,20 @@ Version:1.0
 	font-size: 22px;
 }
 .header.shop .main-category {
+	margin:0;
 	position: absolute;
 	left: 0;
 	top: 64px;
 	background: #fff;
-	z-index: 1;
+	z-index: 2;
 	width: 100%;
 	-webkit-box-shadow: 0px 5px 15px #0000000a;
 	-moz-box-shadow: 0px 5px 15px #0000000a;
 	box-shadow: 0px 5px 15px #0000000a;
+}
+#primary{
+	float:none!important;
+	width:100% !important;
 }
 .header.shop .main-category li{
 	display:block;
@@ -861,7 +868,6 @@ Version:1.0
 	visibility:visible;
 }
 .header.shop .main-category li .mega-menu .single-menu {
-	width: 33%;
 	display: inline-block;
 	border: none;
 	padding: 0;
@@ -875,20 +881,21 @@ Version:1.0
 }
 .header.shop .main-category li .mega-menu .single-menu img{
 	display:block;
-	height:100%;
-	width:100%;
+    margin: 0 auto;
 	cursor:pointer;
 }
 .header.shop .main-category li .mega-menu .single-menu .image:hover img{
 	transform:scale(1.1);
 }
 .header.shop .main-category li .mega-menu .single-menu .title-link {
+	min-height: 50px;
+	text-align: center;
 	margin-bottom: 20px;
-	background: #F7941D;
-	color: #fff;
+	/* background: #424646; */
+	color: #424646;
 	padding: 2px 13px;
 	border-radius: 3px;
-	display: inline-block;
+	/* display: inline-block; */
 	font-size: 14px;
 }
 .header.shop .main-category li .mega-menu .single-menu .title-link:hover{
@@ -1213,8 +1220,8 @@ Version:1.0
 	overflow: hidden;
 }
 .hero-slider .single-slider {
-	height: auto;
-	background-image: url('https://via.placeholder.com/1900x700');
+	width:100%;
+	background-image: url('images/slider1.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1224,10 +1231,17 @@ Version:1.0
 	
 }
 .hero-slider .hero-text {
-	padding: 0 30px;
-	margin-top:100px;
+	margin-top:20px;
+}
+.back-hero{
+	background-color:white;
+	position: absolute;
+	width:100%;
+	height:100%;
+	opacity: 0.7;
 }
 .hero-slider .hero-text h1 {
+	padding:20px;
 	line-height: 50px;
 	font-size: 47px;
 	font-weight: 700;
@@ -1235,6 +1249,7 @@ Version:1.0
 	margin-bottom: 20px;
 }
 .hero-slider .hero-text h1 span {
+	padding:20px;
 	font-size: 20px;
 	display: block;
 	margin-bottom: 12px;
@@ -1243,11 +1258,13 @@ Version:1.0
 	line-height: initial;
 }
 .hero-slider .hero-text p {
+	padding-left: 25px;
 	color: #333;
-	margin-bottom: 35px;
+	font-size: 20px;
 }
 .hero-slider .hero-text .button{
-	margin:0;
+	margin:10px;
+	float:right;
 }
 .hero-slider .hero-text .btn {
 	color: #fff;
@@ -1420,6 +1437,8 @@ Version:1.0
 .hero-area3 .small-content.secound{
 	background-image: url('https://via.placeholder.com/450x300');
 }
+
+
 .hero-area3 .small-content .inner {
 	padding: 30px;
 	text-align:right;
@@ -4920,6 +4939,7 @@ Version:1.0
 }
 .footer .links ul li:last-child{
 	margin-bottom:0;
+	margin-top: 60px!important;
 }
 .footer .links ul li a{
 	color:#fff;
@@ -4982,3 +5002,82 @@ Version:1.0
 	End Footer CSS
 ===============================*/
 
+.Carousel .swiper-slide{
+	width: 300px;
+	height: 300px;
+	background-position: center;
+}
+.mySwiper{
+	max-height: 550px;
+}
+.Carousel{
+	max-height:350px;
+}
+.custom_button{
+	background-color: #424646;
+	width: 120px;
+	font-size: 16px!important;
+	text-align: center;
+	padding: 10px!important;
+	color: white!important;
+	margin: 0 auto;
+}
+.custom_button:hover{
+	font-size: 18px!important;
+	transition: 1s;
+}
+.columns_clons{
+	column-count: 3;
+}
+.columns_clons li{
+	padding: 20px;
+}
+.columns_clons li a{
+	font-size: 15px;
+}
+.woocommerce-placeholder{
+	max-width: 200px;
+}
+.main{
+	width:100%;
+}
+.background{
+	width:70%;
+}
+
+.woocommerce-ordering{
+display:none;
+}
+.pagination_main{
+	position: absolute;
+}
+.attachment-clean-commerce-carousel{
+	width:200px;
+}
+#customer_details{
+	display:none;
+}
+.woocommerce-notices-wrapper{
+	display:none;
+}
+.navigation .nav-links .page-numbers.current, .navigation .nav-links a:hover{
+	background: #ff4922 none repeat scroll 0 0;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 5px 20px;
+	display: inline-block;
+}
+.woocommerce-product-gallery{
+	opacity: 1!important;
+}
+.related.products{
+	padding-top:50px;
+}
+.product_meta{
+	float:right;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	margin:0!important;
+}

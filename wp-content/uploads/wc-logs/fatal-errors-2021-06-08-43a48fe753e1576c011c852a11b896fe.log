@@ -1,0 +1,48 @@
+2021-06-08T19:31:52+00:00 CRITICAL syntax error, unexpected '.' in /var/www/shop/wp-content/themes/diplom/header.php on line 207
+
+2021-06-08T19:31:54+00:00 CRITICAL syntax error, unexpected '.' in /var/www/shop/wp-content/themes/diplom/header.php on line 207
+
+2021-06-08T21:19:44+00:00 CRITICAL Uncaught Error: Call to undefined function twenty_twenty_one_post_thumbnail() in /var/www/shop/wp-content/themes/diplom/template-parts/content/content-single.php:18
+Stack trace:
+#0 /var/www/shop/wp-includes/template.php(732): require()
+#1 /var/www/shop/wp-includes/template.php(676): load_template()
+#2 /var/www/shop/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/shop/wp-content/themes/diplom/single.php(18): get_template_part()
+#4 /var/www/shop/wp-includes/template-loader.php(106): include('/var/www/shop/w...')
+#5 /var/www/shop/wp-blog-header.php(19): require_once('/var/www/shop/w...')
+#6 /var/www/shop/index.php(17): require('/var/www/shop/w...')
+#7 {main}
+  thrown in /var/www/shop/wp-content/themes/diplom/template-parts/content/content-single.php on line 18
+
+2021-06-08T21:24:22+00:00 CRITICAL Uncaught Error: Call to undefined function twenty_twenty_one_post_thumbnail() in /var/www/shop/wp-content/themes/diplom/template-parts/header/excerpt-header.php:20
+Stack trace:
+#0 /var/www/shop/wp-includes/template.php(732): require()
+#1 /var/www/shop/wp-includes/template.php(676): load_template()
+#2 /var/www/shop/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/shop/wp-content/themes/diplom/template-parts/content/content-excerpt.php(16): get_template_part()
+#4 /var/www/shop/wp-includes/template.php(732): require('/var/www/shop/w...')
+#5 /var/www/shop/wp-includes/template.php(676): load_template()
+#6 /var/www/shop/wp-includes/general-template.php(204): locate_template()
+#7 /var/www/shop/wp-content/themes/diplom/archive.php(29): get_template_part()
+#8 /var/www/shop/wp-includes/template-loader.php(106): include('/var/www/shop/w...')
+#9 /var/www/shop/wp-blog-header.php(19): require_once('/var/www/shop/w...')
+#10 /var/www/shop/index.php(17): require('/var/www/shop/w...')
+#11 {main}
+  thrown in /var/www/shop/wp-content/themes/diplom/template-parts/header/excerpt-header.php on line 20
+
+2021-06-08T21:26:46+00:00 CRITICAL Uncaught Error: Call to undefined function twenty_twenty_one_the_posts_navigation() in /var/www/shop/wp-content/themes/diplom/archive.php:32
+Stack trace:
+#0 /var/www/shop/wp-includes/template-loader.php(106): include()
+#1 /var/www/shop/wp-blog-header.php(19): require_once('/var/www/shop/w...')
+#2 /var/www/shop/index.php(17): require('/var/www/shop/w...')
+#3 {main}
+  thrown in /var/www/shop/wp-content/themes/diplom/archive.php on line 32
+
+2021-06-08T21:26:56+00:00 CRITICAL Uncaught Error: Call to undefined function twenty_twenty_one_the_posts_navigation() in /var/www/shop/wp-content/themes/diplom/archive.php:32
+Stack trace:
+#0 /var/www/shop/wp-includes/template-loader.php(106): include()
+#1 /var/www/shop/wp-blog-header.php(19): require_once('/var/www/shop/w...')
+#2 /var/www/shop/index.php(17): require('/var/www/shop/w...')
+#3 {main}
+  thrown in /var/www/shop/wp-content/themes/diplom/archive.php on line 32
+

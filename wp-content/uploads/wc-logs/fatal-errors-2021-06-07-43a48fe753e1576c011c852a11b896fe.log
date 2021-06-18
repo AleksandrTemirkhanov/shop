@@ -1,0 +1,18 @@
+2021-06-07T20:21:41+00:00 CRITICAL Uncaught Error: Call to undefined function media_sideload_image() in /var/www/shop/parser.php:38
+Stack trace:
+#0 /var/www/shop/parser.php(112): AddProduct()
+#1 {main}
+  thrown in /var/www/shop/parser.php on line 38
+
+2021-06-07T20:39:33+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/shop/parser.php:17
+Stack trace:
+#0 /var/www/shop/parser.php(113): add_image()
+#1 {main}
+  thrown in /var/www/shop/parser.php on line 17
+
+2021-06-07T21:23:04+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/shop/parser.php:28
+Stack trace:
+#0 /var/www/shop/parser.php(121): add_image()
+#1 {main}
+  thrown in /var/www/shop/parser.php on line 28
+
